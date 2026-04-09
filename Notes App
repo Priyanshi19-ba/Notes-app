@@ -1,0 +1,49 @@
+**Overview**
+
+A simple and efficient Notes App built using HTML, CSS, and JavaScript. This application allows users to create, view, and delete notes dynamically. It uses browser local storage to ensure data persistence, so notes remain saved even after refreshing the page.
+
+**Features**
+
+• Add new notes easily through an input field
+• Display all notes in a structured list format
+• Delete individual notes when no longer needed
+• Supports multiple notes without removing existing ones
+• Data persistence using browser local storage
+• Dynamic user interface without page reload
+
+**Application Structure**
+
+• Home Page
+
+The Home Page provides a clean user interface with an input field labeled “Add your note” and an “Add” button. Users can quickly write and save their notes from this section.
+
+• Notes Page (Notes Display Section)
+
+After adding a note, it appears below the input field as part of a list. Each note is displayed clearly along with a delete option. The interface updates dynamically, allowing smooth interaction.
+
+• Multiple Notes Support
+
+The application allows users to add multiple notes. Previously added notes remain visible when new notes are created, ensuring efficient note management.
+
+• Data Persistence
+
+All notes are stored using browser local storage. This ensures that notes remain available even after refreshing or reopening the application.
+
+**Technologies Used**
+
+• HTML – Structure of the application
+• CSS – Styling and layout
+• JavaScript – Functionality and logic
+• Local Storage – Data persistence
+
+**How to Use**
+
+• Open the application in a browser
+• Enter a note in the input field
+• Click on the “Add” button to save the note
+• View notes in the display section
+• Use the delete button to remove any note
+
+**Conclusion**
+
+This project demonstrates fundamental web development concepts such as DOM manipulation, event handling, and local storage. It is a beginner-friendly project useful for understanding how interactive web applications work.
